@@ -21,7 +21,7 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultDbConne
 builder.Services
     .AddDbContext<ApplicationDbContext>(
         options => options.UseMySql(
-            connectionString, ServerVersion.AutoDetect(connectionString)), ServiceLifetime.Scoped); ;
+            connectionString, ServerVersion.AutoDetect(connectionString))); ;
 builder.Services.AddSingleton(u => new BlobServiceClient(builder.Configuration.GetConnectionString("StorageAccount")));
 builder.Services.AddSingleton<IBlobService, BlobService>();
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
