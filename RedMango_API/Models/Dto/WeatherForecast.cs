@@ -1,4 +1,4 @@
-namespace RedMango_API
+namespace RedMango_API.Models.Dto
 {
     public class WeatherForecast
     {
@@ -8,6 +8,6 @@ namespace RedMango_API
 
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
-        public string? Summary { get; set; }
+        public string Summary { get; set; }
     }
 }

@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using RedMango_API.Models.Dto;
 
 namespace RedMango_API.Controllers
 {
