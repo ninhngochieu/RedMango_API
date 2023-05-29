@@ -11,7 +11,7 @@ using RedMango_API.Data;
 namespace RedMangoAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230528160055_InitialDB")]
+    [Migration("20230529134051_InitialDB")]
     partial class InitialDB
     {
         /// <inheritdoc />
@@ -277,7 +277,7 @@ namespace RedMangoAPI.Migrations
                             Id = 1,
                             Category = "Appetizer",
                             Description = "Fusc tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
-                            Image = "https://redmangoimages.blob.core.windows.net/redmango/spring roll.jpg",
+                            Image = "https://azurestorageforapi.blob.core.windows.net/redmango/spring roll.jpg",
                             Name = "Spring Roll",
                             Price = 7.9900000000000002,
                             SpecialTag = ""
@@ -287,7 +287,7 @@ namespace RedMangoAPI.Migrations
                             Id = 2,
                             Category = "Appetizer",
                             Description = "Fusc tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
-                            Image = "https://redmangoimages.blob.core.windows.net/redmango/idli.jpg",
+                            Image = "https://azurestorageforapi.blob.core.windows.net/redmango/idli.jpg",
                             Name = "Idli",
                             Price = 8.9900000000000002,
                             SpecialTag = ""
@@ -297,7 +297,7 @@ namespace RedMangoAPI.Migrations
                             Id = 3,
                             Category = "Appetizer",
                             Description = "Fusc tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
-                            Image = "https://redmangoimages.blob.core.windows.net/redmango/pani puri.jpg",
+                            Image = "https://azurestorageforapi.blob.core.windows.net/redmango/pani puri.jpg",
                             Name = "Panu Puri",
                             Price = 8.9900000000000002,
                             SpecialTag = "Best Seller"
@@ -307,7 +307,7 @@ namespace RedMangoAPI.Migrations
                             Id = 4,
                             Category = "Entrée",
                             Description = "Fusc tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
-                            Image = "https://redmangoimages.blob.core.windows.net/redmango/hakka noodles.jpg",
+                            Image = "https://azurestorageforapi.blob.core.windows.net/redmango/hakka noodles.jpg",
                             Name = "Hakka Noodles",
                             Price = 10.99,
                             SpecialTag = ""
@@ -317,7 +317,7 @@ namespace RedMangoAPI.Migrations
                             Id = 5,
                             Category = "Entrée",
                             Description = "Fusc tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
-                            Image = "https://redmangoimages.blob.core.windows.net/redmango/malai kofta.jpg",
+                            Image = "https://azurestorageforapi.blob.core.windows.net/redmango/malai kofta.jpg",
                             Name = "Malai Kofta",
                             Price = 12.99,
                             SpecialTag = "Top Rated"
@@ -327,7 +327,7 @@ namespace RedMangoAPI.Migrations
                             Id = 6,
                             Category = "Entrée",
                             Description = "Fusc tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
-                            Image = "https://redmangoimages.blob.core.windows.net/redmango/paneer pizza.jpg",
+                            Image = "https://azurestorageforapi.blob.core.windows.net/redmango/paneer pizza.jpg",
                             Name = "Paneer Pizza",
                             Price = 11.99,
                             SpecialTag = ""
@@ -337,7 +337,7 @@ namespace RedMangoAPI.Migrations
                             Id = 7,
                             Category = "Entrée",
                             Description = "Fusc tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
-                            Image = "https://redmangoimages.blob.core.windows.net/redmango/paneer tikka.jpg",
+                            Image = "https://azurestorageforapi.blob.core.windows.net/redmango/paneer tikka.jpg",
                             Name = "Paneer Tikka",
                             Price = 13.99,
                             SpecialTag = "Chef's Special"
@@ -347,7 +347,7 @@ namespace RedMangoAPI.Migrations
                             Id = 8,
                             Category = "Dessert",
                             Description = "Fusc tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
-                            Image = "https://redmangoimages.blob.core.windows.net/redmango/carrot love.jpg",
+                            Image = "https://azurestorageforapi.blob.core.windows.net/redmango/carrot love.jpg",
                             Name = "Carrot Love",
                             Price = 4.9900000000000002,
                             SpecialTag = ""
@@ -357,7 +357,7 @@ namespace RedMangoAPI.Migrations
                             Id = 9,
                             Category = "Dessert",
                             Description = "Fusc tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
-                            Image = "https://redmangoimages.blob.core.windows.net/redmango/rasmalai.jpg",
+                            Image = "https://azurestorageforapi.blob.core.windows.net/redmango/rasmalai.jpg",
                             Name = "Rasmalai",
                             Price = 4.9900000000000002,
                             SpecialTag = "Chef's Special"
@@ -367,7 +367,7 @@ namespace RedMangoAPI.Migrations
                             Id = 10,
                             Category = "Dessert",
                             Description = "Fusc tincidunt maximus leo, sed scelerisque massa auctor sit amet. Donec ex mauris, hendrerit quis nibh ac, efficitur fringilla enim.",
-                            Image = "https://redmangoimages.blob.core.windows.net/redmango/sweet rolls.jpg",
+                            Image = "https://azurestorageforapi.blob.core.windows.net/redmango/sweet rolls.jpg",
                             Name = "Sweet Rolls",
                             Price = 3.9900000000000002,
                             SpecialTag = "Top Rated"

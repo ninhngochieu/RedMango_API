@@ -29,13 +29,6 @@ namespace RedMango_API.Controllers
         public async Task<IActionResult> GetMenuItems()
         {
             var item = _db.MenuItems;
-            var needToUpdates = item.Where(m => m.Image.Contains("redmangoimages"));
-            await needToUpdates.ForEachAsync(m =>
-            {
-                m.Image.Replace("redmangoimages", "azurestorageforapi");
-            });
-            await _db.SaveChangesAsync();
-
             _response.Result = item;
             _response.StatusCode=HttpStatusCode.OK;
             return Ok(_response);
